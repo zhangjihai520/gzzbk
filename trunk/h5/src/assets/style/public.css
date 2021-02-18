@@ -1,0 +1,90 @@
+p,h2,h3,h4,ul,li{
+  margin: 0;
+  padding: 0;
+}
+ul,li{
+  list-style: none;
+}
+.container{
+  box-sizing: border-box;
+  background: #F7F7F7;
+ 
+}
+
+.listBox{
+  width: 100%;
+  clear: both;
+  overflow: hidden;
+}
+.listItem {
+  position: relative;
+  display: flex;
+  padding: 5px;
+  height: 30vw;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+  background: #fff;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px;
+}
+.listTitle {
+  display: flex;
+  margin-top: 10px;
+}
+.icons {
+  height: 15px;
+  transform: translateY(3px);
+}
+.titleName {
+  margin-left: 5px;
+  color: #2D2D2D;
+}
+
+.listImg {
+  width: 45%;
+  height:30vw;
+}
+.infoBox{
+  width: 55%;
+}
+.listInfo {
+  text-align: left;
+  padding-left: 10px;
+  margin-top:3px;
+  font-size: 10px;
+  color: #666;
+}
+.btnBox{
+  clear: both;
+  overflow: hidden;
+  position: absolute;
+  bottom: 8px;
+  right: 10px;
+}
+.btn{
+  
+  float: right;
+  height:28px;
+  font-size: 10px;
+  margin-left: 5px;
+  background: linear-gradient(#FFAD69,#FFAA66,#FF9454);
+  color: #fff;
+}
+.mark{
+  position: absolute;
+  background: linear-gradient(#FFAD69,#FFAA66,#FF9454);
+  margin: 5px;
+  font-size: 10px;
+  padding: 3px 8px;
+  border-radius: 10px;
+  color: #fff;
+}
+.mark::before{
+  content: "·";
+}
+.playeIcon{
+  position: absolute;
+  left: 22%;
+  top: 15vw;
+}
+

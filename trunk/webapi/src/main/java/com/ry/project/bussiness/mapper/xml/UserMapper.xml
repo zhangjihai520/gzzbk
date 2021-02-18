@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ry.project.bussiness.mapper.UserMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ry.project.bussiness.domain.bo.User">
+        <id column="user_id" property="userId" />
+        <result column="user_name" property="userName" />
+        <result column="password" property="password" />
+        <result column="user_type_id" property="userTypeId" />
+        <result column="user_from" property="userFrom" />
+        <result column="user_true_name" property="userTrueName" />
+        <result column="user_sex" property="userSex" />
+        <result column="user_face" property="userFace" />
+        <result column="email_address" property="emailAddress" />
+        <result column="school_id" property="schoolId" />
+        <result column="school_code" property="schoolCode" />
+        <result column="school_name" property="schoolName" />
+        <result column="class_name" property="className" />
+        <result column="comment" property="comment" />
+        <result column="phone" property="phone" />
+        <result column="grade_id" property="gradeId" />
+        <result column="course_id" property="courseId" />
+        <result column="source_type_id" property="sourceTypeId" />
+        <result column="source_id" property="sourceId" />
+        <result column="status" property="status" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="user_roles" property="userRoles" />
+        <result column="student_code" property="studentCode" />
+        <result column="id_card" property="idCard" />
+        <result column="last_login_time" property="lastLoginTime" />
+        <result column="bind_status" property="bindStatus" />
+        <result column="famous_flag" property="famousFlag" />
+
+    </resultMap>
+
+</mapper>

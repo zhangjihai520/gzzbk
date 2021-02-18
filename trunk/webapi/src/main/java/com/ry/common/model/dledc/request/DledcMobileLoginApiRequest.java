@@ -1,0 +1,21 @@
+package com.ry.common.model.dledc.request;
+
+import com.alibaba.fastjson.annotation.JSONField;
+import lombok.Data;
+import lombok.experimental.Accessors;
+
+/**
+ * 教辅平台移动端登录Request
+ */
+@Data
+@Accessors(chain = true)
+public class DledcMobileLoginApiRequest {
+
+    @JSONField(name = "Uid")
+    private String uid;
+    /// <summary>
+    /// 是否是测试，1为测试
+    /// </summary>
+    @JSONField(name = "IsTest")
+    private int isTest;
+}

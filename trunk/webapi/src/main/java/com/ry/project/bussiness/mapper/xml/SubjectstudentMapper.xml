@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ry.project.bussiness.mapper.SubjectstudentMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ry.project.bussiness.domain.bo.Subjectstudent">
+        <id column="id" property="id" />
+        <result column="subject_id" property="subjectId" />
+        <result column="user_id" property="userId" />
+        <result column="chapterlesson_id" property="chapterlessonId" />
+        <result column="is_evaluate" property="isEvaluate" />
+        <result column="is_register" property="isRegister" />
+        <result column="status" property="status" />
+        <result column="remark" property="remark" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+    </resultMap>
+
+</mapper>

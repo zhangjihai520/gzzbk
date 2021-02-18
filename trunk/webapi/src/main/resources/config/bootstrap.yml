@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: gzzbk-service
+  cloud:
+    # 配置中心
+    nacos:
+      config:
+        server-addr: alibaba.nacos.com:8848
+        file-extension: yml
+        encode: UTF-8
+        prefix: ${spring.application.name}
+        shared-dataids: ${spring.application.name}.yml,${spring.application.name}-common.yml
+      discovery:
+        server-addr: alibaba.nacos.com:8848
+server:
+  max-http-header-size: 10000000

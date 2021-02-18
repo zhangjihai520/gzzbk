@@ -1,0 +1,32 @@
+p,h2,h3{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  background: #F4F6F5;
+  box-sizing: border-box;
+
+}
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+  box-sizing: border-box;
+}
+.clearfix:after {
+  clear: both
+}
+
+@media (min-width: 1910px) {
+  .left {
+    margin-left: 15px;
+  }
+}
+@media (max-width: 1200px) {
+  .left {
+    margin-left: 5px;
+  }
+}
